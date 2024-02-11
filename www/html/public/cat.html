@@ -1,0 +1,81 @@
+<!--div style="width: 690px;"-->
+
+
+<!--table><tr><td valign="top"-->
+
+<!--begin_cats-->
+<!--div style="float:left; width: 150px; "-->
+<div class='lm_all' style='padding-top: 20px;'>
+
+	<ul>
+	<!--begin_cat1-->
+	<li class="cat1">
+		<!--begin_bs-->{title}<!--end_bs-->
+		<!--begin_bn--><a href="?p=cat&catId={catId}">{title}</a> ({n})<!--end_bn-->
+		<ul>
+		<!--begin_cat2-->
+		<li class="cat2">
+			<!--begin_bs-->{title}<!--end_bs-->
+			<!--begin_bn--><a href="?p=cat&catId={catId}">{title}</a> ({n})<!--end_bn-->
+		</li>
+		<!--end_cat2-->
+		</ul>
+	</li>
+	<!--end_cat1-->
+	</ul>
+
+</div>
+<!--end_cats-->
+
+<!--/td><td valign="top"-->
+
+
+
+<div class='content'>
+<div style='padding-left: 20px;'>
+
+<div class='flower' style="padding-bottom: 20px;">
+<!--begin_path-->
+<!--begin_link-->
+<!--begin_bs-->{title}<!--end_bs-->
+<!--begin_bn--><a href="?p=cat&catId={catId}">{title}</a> ({n})<!--end_bn-->
+:
+<!--end_link-->
+<!--begin_current-->
+<!--begin_bs-->{title}<!--end_bs-->
+<!--begin_bn--><a href="?p=cat&catId={catId}">{title}</a> ({n})<!--end_bn-->
+<!--end_current-->
+<!--end_path-->
+</div>
+
+<!--begin_items-->
+<!--div style="clear: both;"-->
+
+<!-- begin_bMessage -->
+<div class="WarningSmall" style="padding-left: 20px;">{sMessage}</div>
+<!-- end_bMessage -->
+	<!--begin__hasitems-->
+		<div style="font-size: smaller; padding-bottom: 3px;">Товаров: {_n}</div>
+		<hr />
+	<!--end__hasitems-->
+
+	<!--begin__item-->
+	<a href="?p=item&itemId={itemId}">{title}</a><br />
+	Цена: {price} руб. &nbsp;&nbsp; <a href="?p=item&itemId={itemId}" class='a_arrow'>Заказать</a><br />
+	{notes}<br />
+	<!--begin_pic--><a href="{src}"><img src="{src}" height="100" border="0" /></a>
+	<!--end_pic-->
+	<hr />
+	<!--end__item-->
+
+	<!--begin__noitems-->
+	Выберети категорию товаров.
+	<!--end__noitems-->
+
+<!--end_items-->
+
+</div>
+
+
+<!--/td></tr></table-->
+

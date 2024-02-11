@@ -1,0 +1,81 @@
+<!--begin_cats-->
+<!--div style="float:left; width: 150px; "-->
+<div class='lm_all' style='padding-top: 20px;'>
+
+	<ul>
+	<!--begin_cat1-->
+	<li class="cat1">
+		<!--begin_bs-->{title}<!--end_bs-->
+		<!--begin_bn--><a href="?p=cat&catId={catId}">{title}</a> ({n})<!--end_bn-->
+		<ul>
+		<!--begin_cat2-->
+		<li class="cat2">
+			<!--begin_bs-->{title}<!--end_bs-->
+			<!--begin_bn--><a href="?p=cat&catId={catId}">{title}</a> ({n})<!--end_bn-->
+		</li>
+		<!--end_cat2-->
+		</ul>
+	</li>
+	<!--end_cat1-->
+	</ul>
+
+</div>
+<!--end_cats-->
+
+
+<div class='content'>
+<div style='padding-left: 20px;'>
+
+
+
+<div style="padding-top: 20px;">
+<!--begin_path-->
+<!--begin_link-->
+<!--begin_bs-->{title}<!--end_bs-->
+<!--begin_bn--><a href="?p=cat&catId={catId}">{title}</a> ({n})<!--end_bn-->
+:
+<!--end_link-->
+<!--begin_current-->
+<!--begin_bs-->{title}<!--end_bs-->
+<!--begin_bn--><a href="?p=cat&catId={catId}">{title}</a> ({n})<!--end_bn-->
+<!--end_current-->
+<!--end_path-->
+</div>
+
+
+
+<!--begin_item-->
+<div class='flower'>{title}</div>
+
+
+<form name="{_block}" action="{_curpage}" method="post" >
+<input type="hidden" name="{_block}Cmd" value="save" />
+<table class="Form" cellspacing="0" cellpadding="0" style="width: 90%;">
+<tr class="Controls"><th>Цена:</th><td>{price} руб.</td></tr>
+<tr class="Controls"><th>Описане:</th><td>{notes}<br /><!--begin_pic--><a href="{src}"><img src="{src}" height="100" border="0" /></a>
+<!--end_pic--></td></tr>
+
+<!--begin_logged-->
+<tr class="Controls"><th>ФИО:</th><td>{name}&nbsp;</td></tr>
+<tr class="Controls"><th>Адрес:</th><td>{address}&nbsp;</td></tr>
+<tr class="Controls"><th>Телефон:</th><td>{phone}&nbsp;</td></tr>
+<tr class="Controls"><th>Email:</th><td>{email}&nbsp;</td></tr>
+<tr class="Controls"><th>Кол-во:</th><td><input type="text" name="n" value="{n}" class='input_beauty' /></td></tr>
+<tr class="Footer"><td colspan="2">
+<input type='image' src='/images/but_order.gif' alt='Заказать' class='but_order' />
+</td></tr>
+<!--end_logged-->
+
+<!--begin_notlogged-->
+<tr class="Footer"><td colspan="2">
+Чтобы иметь возможность заказать товар, Вам нужно <a href="/users/reg.php" class="a_arrow">зарегистрироваться</a>
+</td></tr>
+<!--end_notlogged-->
+
+</table>
+</form>
+
+<!--end_item-->
+
+
+</div>

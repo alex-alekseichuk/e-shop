@@ -1,0 +1,124 @@
+<div style="width: 700px; margin: 20px auto;">
+
+<!--begin_path-->
+<!--begin_link-->
+<a href="?p=cat&catId={catId}">{title}</a> :
+<!--end_link-->
+<!--begin_current-->
+{title}
+<!--end_current-->
+<!--end_path-->
+
+<table><tr><td valign="top">
+
+<!--begin_cats-->
+<div style="float:left; width: 500px; margin: 20px auto;">
+
+<h4>Подкатегории</h4>
+
+<div style="width: 250px;">
+
+<!-- begin_bMessage -->
+<div class="WarningSmall">{sMessage}</div>
+<!-- end_bMessage -->
+
+	<div style="float: right; font-size: smaller; padding-bottom: 3px;"><a href="?p=cat&catId={parentId}&catCmd2=new">Добавить подкатегорию</a></div>
+	<table class="Form" cellspacing="0" cellpadding="0" style="clear: both;">
+	<tr class="Caption">
+
+	<th>
+		<!-- begin_sort_catId --><a href="{url}">#</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_catId -->
+	</th> 
+	<th>
+		<!-- begin_sort_title --><a href="{url}">Категория</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_title -->
+	</th> 
+	</tr>
+	<!--begin__item-->
+	<tr class="Row">
+	<td><a href="?p=cat&catId={catId}">{catId}</a></td>
+	<td nowrap="nowrap"><a href="?p=cat&catId={catId}">{title}</a></td>
+	</tr>
+	<!--end__item-->
+	</table>
+</div>
+
+</div>
+<!--end_cats-->
+
+</td><td valign="top">
+
+
+<!--begin_cat-->
+<div style="display: block; float: left;">
+<h4>Категория {catIdN}</h4>
+
+<!-- begin_bMessage -->
+<div class="WarningSmall">{sMessage}</div>
+<!-- end_bMessage -->
+
+<form name="{_block}" action="{_curpage}" method="post">
+<input type="hidden" name="{_block}Cmd" value="{cmd}" />
+<input type="hidden" name="{_block}Cmd2" value="{cmd2}" />
+<input type="hidden" name="catId" value="{catId}" />
+<table class="Form" cellspacing="0" cellpadding="0">
+<tr class="Controls"><th>Название:</th><td><input type="text" name="title" value="{title}" /></td></tr>
+<tr class="Footer"><td colspan="2">
+<input type="submit" value="Сохранить" /> 
+<!--begin_bDel-->
+<input type="button" value="Удалить" onClick="document.forms['cat'].catCmd.value='delete';document.forms['cat'].submit();" />
+<!--end_bDel-->
+</td></tr>
+</table>
+</form>
+
+</div>
+<!--end_cat-->
+
+
+
+<!--begin_items-->
+<div style="clear: both; padding-top: 20px;">
+
+<!-- begin_bMessage -->
+<div class="WarningSmall">{sMessage}</div>
+<!-- end_bMessage -->
+
+	<div style="float: left; font-size: smaller; padding-bottom: 3px;">Товаров: {_n}</div>
+	<div style="float: right; font-size: smaller; padding-bottom: 3px;"><a href="?p=item&catId={catId}">Добавить товар</a></div>
+	<table class="Form" cellspacing="0" cellpadding="0" style="clear: both;">
+	<tr class="Caption">
+
+	<th>
+		<!-- begin_sort_itemId --><a href="{url}">#</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_itemId -->
+	</th> 
+	<th>
+		<!-- begin_sort_title --><a href="{url}">Наименование</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_title -->
+	</th> 
+	<th>
+		<!-- begin_sort_price --><a href="{url}">Цена</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_price -->
+	</th> 
+	</tr>
+	<!--begin__item-->
+	<tr class="Row">
+	<td><a href="?p=item&itemId={itemId}">{itemId}</a></td>
+	<td nowrap="nowrap"><a href="?p=item&itemId={itemId}">{title}</a></td>
+	<td>{price}</td>
+	</tr>
+	<!--end__item-->
+	</table>
+</div>
+<!--end_items-->
+
+</td></tr></table>
+
+</div>

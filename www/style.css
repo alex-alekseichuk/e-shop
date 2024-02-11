@@ -1,0 +1,595 @@
+body, div, ul, li {
+        font:              11px Tahoma,Arial, Helvetica, sans-serif;
+        color:						 #555;
+        margin:            0px;
+        padding:           0px;
+}
+
+td {
+/*	  		text-align:				 left;*/
+
+}
+
+body {
+				background:        url('/images/body_bg.gif') no-repeat center top;
+}
+
+div {
+        border:            0px solid #eee;
+	  		text-align:				 left;
+/*
+				border:						 1px solid;
+
+ 			  overflow:					 hidden;
+*/
+}
+
+img {
+        border:            0px;
+}
+
+table {
+        padding:					 0px;
+				margin:						 0px;
+				border:						 0px solid #ccc;
+				width:						 100%;
+        font:              11px Tahoma,Arial, Helvetica, sans-serif;
+}
+
+input {
+        height:            18px;
+        padding:           1px 2px 0px 2px;
+        margin:            1px 0px;
+        border:            1px solid #999;
+        color:             #555;
+        font:              11px Tahoma,Arial, Helvetica, sans-serif;
+			
+}
+
+.input_beauty {
+        height:            18px;
+        padding:           2px 3px 0px 5px;
+        margin:            1px 0px;
+        border:            1px solid #A1D1FF;
+        background-color:  #FFF;
+        background:        url('/images/text_bg.gif');
+        color:             #8E8E8E;
+        font:              11px Tahoma,Arial, Helvetica, sans-serif;				
+}
+
+.li_simple {
+				background:				 none;
+				padding-left:			 5px;
+}
+
+.radio {
+        height:            12px;
+        background:        #FFF;
+			  background-color:  transparent;
+				border:						 0px;
+        margin-top:        7px;
+				margin-bottom:		 -2px;			
+}
+
+.radio_plain {
+        height:            12px;
+        background:        #FFF;
+			  background-color:  transparent;
+				border:						 0px;
+				margin-bottom:		 2px;
+}
+
+select {
+        height:            18px;
+        padding:           1px;
+        margin:            1px 0px;
+        border:            1px solid #999;
+        color:             #555;
+        font:              11px Tahoma,Arial, Helvetica, sans-serif;
+}
+
+textarea {
+        padding:           1px;
+				margin:						 0px;
+        border:            1px solid #999;
+        background:        #fff;
+        color:             #333;
+        font:              11px Tahoma,Arial, Helvetica, sans-serif;
+}
+
+form {
+        margin:            0px;
+        padding:           0px;
+}
+
+a {
+	 			color:						 #3990E7;
+}
+
+ul {
+        padding-left:      7px;
+}
+ul li {
+        margin-left:       0px;
+        padding:           0px 4px 0px 10px;
+        background:        url(/images/li.gif) no-repeat 0px 6px;
+        list-style:        none;
+}
+ol li {
+        margin-left:       0px;
+        padding:           0px 0px 0px 0px;
+}
+
+p {
+        margin:            5px 0px;
+				text-align:				 left;
+}
+
+/* Верх */
+.container {
+   background:  			#FFF;
+	 width: 						1000px;
+	 padding-top:				10px;
+}
+
+.logo {
+   float:							left;
+	 width:							169px;
+	 display:						inline;
+   float:             left;
+}
+
+.banner_top {
+   height:	 					100px;
+/*
+	 padding-right:			70px;
+*/
+	 padding-left:			205px;
+}
+
+/* Верхнее меню */
+.tm_all {
+	 height:	 					57px;
+	 margin-top:				20px;
+	 margin-left:				33px;
+	 display:						inline;
+	 width:							795px;
+	 background:				url(/images/tm_bg_old.gif) no-repeat;
+	 text-align:				left;
+   float:             right;
+}
+
+.tm_sub {
+   color:							#1C5FAA;
+	 padding:						2px 10px 10px 10px;
+	 width:							500px;
+	 height:						30px;
+	 display:						block;
+	 position:					absolute;
+	 top:								167px;
+}
+
+.tm_sub_a {
+   color:							#FFF;
+	 text-decoration:		none;
+}
+
+.tm_item {
+   height:	 					37px;
+	 width:							101px;	 
+	 margin-right:			4px;
+	 display:						inline;
+	 float:							left;
+}
+
+
+.tm_item_pic {
+   height:	 					37px;
+	 width:							101px;
+}
+
+/* Левое меню */
+.lm_all {
+/*
+	 margin-top:				25px;
+*/
+	 display:						inline;
+	 width:							169px;
+	 vertical-align:		top;
+   float:             left;	 
+}
+
+.lm_item {
+	 background:				url("/images/lm_item.gif");
+	 width:							169px;
+	 height:						28px;
+ 	 text-align:				left;
+	 cursor: 						hand;
+}
+
+.lm_text {
+   margin:            7px 0px 0px 28px;
+	 color:							#3990E7;
+	 text-decoration:		none;
+   font-size:         11px;
+	 font-weight:				bold;
+}
+
+.box_left {
+	 margin-left:				19px;
+}
+
+.box_left_header {
+    width:			 			130px;
+}
+
+
+/* Контент */
+.content {
+	 float:	 	 					left;
+	 display:						inline;
+ /* width: 539 */
+	 width:							535px;
+	 margin-left:				26px;
+	 margin-right:			16px;
+	 vertical-align:		top;
+   background:  			#FFF;
+}
+
+/* Правый столбец */
+.rm_all {
+	 display:						inline;
+	 width:							240px;
+	 vertical-align:		top;
+   float:             right;	 
+}
+
+.box_right {
+	 text-align: 				left;
+	 width:			 				240px;
+}
+
+.box_right_header {
+	 width:			 				220px;
+}
+
+.bannerplace_right {
+	 margin-top:		 		19px;
+}
+
+.banner_right {
+   width:	 						240px;
+	 height:						400px;
+	 border:						0px;	 
+}
+
+
+/* Низ */
+/*
+.bottom {
+	 height:						150px;
+	 color:							#8E8E8E;
+	 background-color:	#EEE;
+	 padding:						32px 5px 3px 0px;
+	 display:						block;
+	 position:					absolute;
+	 bottom:						0px;	 
+}
+*/
+.bottom {
+/*	 background-color:	#EEE;*/
+	 display:						block;
+   width: 						1000px;
+	 height:						175px;
+	 padding:						92px 5px 3px 220px;
+	 color:							#8E8E8E;
+	 clear:							both;
+}
+/* Разное */
+.flower {
+	 width: 						100%;
+	 overflow:					visible;
+	 display:						block;
+	 text-align:				left;
+   padding:           12px 4px 7px 26px;
+   margin:						0px 0px 7px 0px;
+	 background:				url(/images/flower.gif) no-repeat 0px 12px;
+   font-size:         11px;
+	 font-weight:				bold;
+}
+
+
+
+h2.skype, h2.skype a
+{
+	/*
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px; /* 18px */
+	*/
+	font: normal 17px Tahoma;
+	font-weight: bold;
+
+	/*
+	line-height: 19px;
+	*/
+
+	padding: 9px 0 0px 5px; /* was margin: 9px 0 10px 0; but changed beacuse of 19px + 9px case */
+	color: #3d3d3d;
+	background:	none;
+	text-decoration: none;
+}
+h2.skype a:hover, h2.skype a:active
+{
+	color: #797979;
+	text-decoration: underline;
+}
+
+
+h1 {
+/*
+	 width: 						100%;
+*/
+	 overflow:					visible;
+	 display:						block;
+	 text-align:				left;
+   padding:           12px 4px 7px 26px;
+   margin:						0px 0px 7px 0px;
+	 background:				url(/images/flower.gif) no-repeat 0px 12px;
+   font-size:         11px;
+	 font-weight:				bold;
+}
+
+
+.a_arrow {
+	 background-color:	#EEE;
+	 background:				url(/images/a_arrow.gif) right;
+	 text-decoration:		none;
+   padding-right:			12px;
+	 margin:						0px;
+   color:             #3EAD3E;	 
+}
+
+
+.b_arrow {
+	 background-color:	#EEE;
+	 background:				url(/images/a_arrow.gif) right;
+	 text-decoration:		none;
+   padding-right:			12px;
+	 margin:						0px;
+   color:             #3990E7;	 
+}
+
+.aka-link {
+  text-decoration:		underline;
+	cursor:							pointer;
+	color:							#3990E7;							
+}
+
+.green-link {
+  text-decoration:		underline;
+	cursor:							pointer;
+  color:             #3EAD3E;
+}
+
+.green {
+  color:             #3EAD3E;
+}
+
+.question {
+			  color:	 			#333;
+				text-align:		left;
+				padding:			5px 0px 6px 0px;
+}
+
+.auth_form {
+			  color:						 #61A8F0;
+				text-align:				 right;
+				padding:					 10px 29px 0px 0px;
+}
+
+.but_pict {				
+        padding:           0px;
+        margin:            10px 0px 5px 0px;
+        border:            0px;
+				width:						 81px;
+				height:						 22px;
+}
+.but_order {				
+        padding:           0px;
+        margin:            0px;
+        border:            0px;
+				width:						 81px;
+				height:						 22px;
+}
+
+.but_search {
+				margin:						 0px 0px 0px 5px;
+				width:						 16px;
+				height:						 16px;
+				border:						 0px;
+				background:        url(/images/search.gif) no-repeat;
+				cursor:						 hand;
+}
+
+
+.news_pic {
+				margin:						 3px 15px 10px 0px;
+				border:						 1px solid #DDD;
+}
+
+/* Всяко */
+.place_reply_or {
+ 				text-align:				 right;
+				background-color:	 #FEF5E8;
+				color:						 #555;
+				padding:					 3px;
+}
+
+.place_reply_bl {
+				background-color:	 #EEF5FD;
+				color:						 #555;
+				padding:					 3px;
+}
+
+.comment {
+				font:              9px Tahoma,Arial, Helvetica, sans-serif;
+				color:						 #777;
+}
+
+.div_selected {
+				width: 			 			5px;
+				background:				#3990E7;
+				font-weight:			bold;
+				color:						#FFF;
+				display:					inline;
+				text-align:				center;
+				padding:					0px 2px;
+				margin-right:			3px;
+				margin-top:				2px;
+				border:						1px solid #2980D7;
+}
+
+/* Фотогалерея */
+.pict_gallery_big {
+				border:						 1px solid #DDD;				
+
+}
+
+.pict_gallery_small {
+				margin:			 			 5px 10px 5px 10px;
+				border:						 1px solid #DDD;
+
+}
+
+/* Квадратики*/
+.box_inside_l   {color:#3990E7;font:11px;font-weight:bold;display:inline;padding:0px;float:left;}
+.box_inside_r   {color:#3990E7;font:11px;font-weight:bold;display:inline;padding:0px;float:right;}
+.box_content    {margin: 4px 10px 10px 10px;text-align:left;color:#555;overflow:hidden}
+.just_content   {text-align:left;color:#777;}
+.box_text 		  {color:#3990E7;font:11px;font-weight:bold;text-align:left;text-decoration:none;}
+.box_text_lined {color:#3990E7;font:11px;font-weight:bold;text-align:left;}
+.not_bold			  {font-weight:normal;font:9px;}
+
+.box_b_0  {background: #edf5fd;}
+.box_b_1  {background:url(/images/box_b_1.gif) top left no-repeat;}
+.box_b_2  {background:url(/images/box_b_2.gif) top right no-repeat;}
+.box_b_3  {background:url(/images/box_b_3.gif) bottom right no-repeat;}
+.box_b_4  {background:url(/images/box_b_4.gif) bottom left no-repeat;color:#333;padding:5px 5px 0px 10px;vertical-align:top;}
+.box_bw_1 {background:url(/images/box_bw_1.gif) top left no-repeat;}
+.box_bw_2 {background:url(/images/box_bw_2.gif) top right no-repeat;}
+.box_bw_3 {background:url(/images/box_bw_3.gif) bottom right no-repeat;}
+.box_bw_4 {background:url(/images/box_bw_4.gif) bottom left no-repeat;padding:3px 7px 3px 7px;color:#3990E7;font:11px;font-weight:bold;text-align:left;}
+
+.box_g_0  {background: #def5de;}
+.box_g_1  {background:url(/images/box_g_1.gif) top left no-repeat;}
+.box_g_2  {background:url(/images/box_g_2.gif) top right no-repeat;}
+.box_g_3  {background:url(/images/box_g_3.gif) bottom right no-repeat;}
+.box_g_4  {background:url(/images/box_g_4.gif) bottom left no-repeat;color:#333;padding:5px 5px 0px 10px;}
+.box_gw_1 {background:url(/images/box_gw_1.gif) top left no-repeat;}
+.box_gw_2 {background:url(/images/box_gw_2.gif) top right no-repeat;}
+.box_gw_3 {background:url(/images/box_gw_3.gif) bottom right no-repeat;}
+.box_gw_4 {background:url(/images/box_gw_4.gif) bottom left no-repeat;padding:3px 7px 3px 7px;color:#3990E7;font:11px;font-weight:bold;text-align:left;}
+
+.box_m_0  {background: #f8edff;}
+.box_m_1  {background:url(/images/box_m_1.gif) top left no-repeat;}
+.box_m_2  {background:url(/images/box_m_2.gif) top right no-repeat;}
+.box_m_3  {background:url(/images/box_m_3.gif) bottom right no-repeat;}
+.box_m_4  {background:url(/images/box_m_4.gif) bottom left no-repeat; color:#333;padding:5px 5px 0px 10px;}
+.box_mw_1 {background:url(/images/box_mw_1.gif) top left no-repeat;}
+.box_mw_2 {background:url(/images/box_mw_2.gif) top right no-repeat;}
+.box_mw_3 {background:url(/images/box_mw_3.gif) bottom right no-repeat;}
+.box_mw_4 {background:url(/images/box_mw_4.gif) bottom left no-repeat;padding:3px 7px 3px 7px;color:#3990E7;font:11px;font-weight:bold;text-align:left;}
+
+.box_y_0  {background: #fff7c6;}
+.box_y_1  {background:url(/images/box_y_1.gif) top left no-repeat;}
+.box_y_2  {background:url(/images/box_y_2.gif) top right no-repeat;}
+.box_y_3  {background:url(/images/box_y_3.gif) bottom right no-repeat;}
+.box_y_4  {background:url(/images/box_y_4.gif) bottom left no-repeat; color:#333;padding:5px 5px 0px 10px;} /* padding:5px 10px 3px 10px; */
+.box_yw_1 {background:url(/images/box_yw_1.gif) top left no-repeat;}
+.box_yw_2 {background:url(/images/box_yw_2.gif) top right no-repeat;}
+.box_yw_3 {background:url(/images/box_yw_3.gif) bottom right no-repeat;}
+.box_yw_4 {background:url(/images/box_yw_4.gif) bottom left no-repeat;padding:3px 7px 3px 7px;color:#3990E7;font:11px;font-weight:bold;text-align:left;}
+
+.box_w_0  {background: #FFF;}
+.box_w_1  {margin-top:5px;}
+.box_w_2  {overflow:visible;}
+.box_w_3  {overflow:visible;}
+.box_w_4  {color:#333;padding:5px 5px 0px 10px;}
+.box_ww_1 {background:url(/images/box_ww_1.gif) top left no-repeat; margin-bottom:0px;overflow:hidden;}
+.box_ww_2 {background:url(/images/box_ww_2.gif) top right no-repeat;overflow:hidden;}
+.box_ww_3 {background:url(/images/box_ww_3.gif) bottom right no-repeat;overflow:hidden;}
+.box_ww_4 {background:url(/images/box_ww_4.gif) bottom left no-repeat;padding:3px 10px 3px 7px;color:#3990E7;font:11px;font-weight:bold;text-align:left;overflow:hidden;}
+
+/* Поиск */
+.se_green_text {
+				color:        #3ead3e;
+				font-weight:	normal;
+				cursor:				hand;
+}
+
+.se_bbox {
+				display:			inline;
+				width:				200px;
+}
+
+.se_textarea {
+				width:				130px;
+				height:				95px;
+				float:				left;
+				margin-top:		7px;
+}
+
+.se_ico {
+				width:				13px;
+				height:				13px;
+				cursor:				hand;
+				margin:		7px 3px 0px 3px;
+}
+
+.forum_td_l {
+				border-bottom:1px solid #d4e8fb;
+				background-color: #FFF;
+}
+.forum_td_t {
+				border-bottom:1px solid #d4e8fb;
+				background-color: #fafafa;
+}
+.forum_table {
+				border:1px solid #d4e8fb;
+				border-bottom:0px;
+}
+.forum_td_d {
+				border-bottom:1px solid #d4e8fb;
+				background-color: #f6f9fe;
+}
+.forum_td_g {
+				border-bottom:1px solid #EEE;
+}
+.forum_td_m {
+				border-bottom:1px solid #69C;
+				background-color: #d4e8fb;
+}
+
+.forum_avatar {
+				border: 			1px solid #DDD;
+}
+.forum_fieldset {
+				border:1px solid #d4e8fb;
+				background-color: #FEFEFE;
+				padding:5px;
+}
+
+hr {
+	height: 1px;
+	border:none;
+	color: #d4cddc;
+	background-color: #d4cddc;
+}
+
+.WarningSmall {
+   margin:						0px 0px 7px 0px;
+   padding:           12px 4px 7px 26px;
+   color: #DE5959;
+   font-size:         11px;
+   font-weight:				bold;
+}

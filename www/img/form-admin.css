@@ -1,0 +1,355 @@
+
+.Header {
+	width: 100%;
+	}
+
+.Header th { 
+	font-size: 110%; font-weight: bold; text-align: left;
+	padding: 3px;
+	background-color: #3d84cc; color: #ffffff;
+	width: 100%;
+	white-space: nowrap;
+	}
+
+.Header a:link { 
+	color: #ffffff;
+	}
+
+.Header a:visited { 
+	color: #ffffff;
+	}
+
+.Header a:hover, .Caption a:active { 
+	color: #ffffff; text-decoration: none;
+	}
+
+.HeaderLeft img{
+	width: 3px;
+	}
+
+.HeaderRight img{
+	width: 9px;
+	}
+
+
+.Form { 
+	border-left: 1px solid #d4cddc; border-bottom: 1px solid #d4cddc;
+	width: 100%;
+	}
+.FormTop { 
+	border-left: 1px solid #d4cddc;
+	width: 100%;
+	}
+.FormBottom { 
+	border-left: 1px solid #d4cddc;
+	width: 100%;
+	}
+
+	
+
+.Caption th { 
+	font-size: 80%; 	text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #d4cddc; border-right: 1px solid #d4cddc;
+	background-color: #7a93b4; color: #EEE;
+	white-space: nowrap;
+	}
+
+.Caption td { 
+	font-size: 80%; 	text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #d4cddc; border-right: 1px solid #d4cddc;
+	background-color: #7a93b4; color: #EEE;
+	white-space: nowrap;
+	}
+
+.Caption a:link { 
+	color: #EEE;
+	}
+
+.Caption a:visited { 
+	color: #EEE;
+	}
+
+.Caption a:hover, .Caption a:active { 
+	color: #FFF;
+	}
+
+.Caption img {
+	margin: 2px; 
+	vertical-align: middle;
+	border: 0;
+	}
+
+.Caption input {
+	vertical-align: middle;
+	}
+
+.Caption2 {
+	color: red;
+	font-weight: bold;
+	}
+.GreenLabel {
+	background-color: #4BF74B; color: #000000;
+	font-weight: bold;
+	}
+
+
+.Row th { 
+	font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #d4cddc; border-right: 1px solid #d4cddc;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+
+
+.Row td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #d4cddc; border-right: 1px solid #d4cddc;
+	vertical-align: top;
+	background-color: #FFF; 
+	/*color: #000000;*/
+	}
+
+.Row a:link { 
+	color: #b7a5df;
+	}
+
+.Row a:visited { 
+	color: #b7a5df;
+	}
+
+.Row a:hover, .Row a:active { 
+	color: #9685ba;
+	}
+
+
+
+.Separator{
+	color: #3d84cc;
+	}
+
+.Separator td{
+	height: 1px;
+	}
+
+
+
+.AltRow th { 
+	font-size: 80%; font-weight: normal; text-align: left; vertical-align: top;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.AltRow td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	vertical-align: top;
+	background-color: #ebf2f8; 
+	color: #000000;
+	}
+
+.AltRow a:link { 
+	color: #000080;
+	}
+
+.AltRow a:visited { 
+	color: #000080;
+	}
+
+.AltRow a:hover, .AltRow a:active { 
+	color: #cc4141;
+	}
+
+.NoRecords td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f7f7; 
+	color: #000000;
+	vertical-align: top;
+	}
+
+
+
+.Error td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	color: #FF0000;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	}
+
+.Controls th { 
+	font-size: 80%; font-weight: normal; text-align: left; vertical-align: middle;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f7f7; color: #000000;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Controls td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #000000;
+	}
+
+
+
+.Footer td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f7f7; color: #000000;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Footer a:link { 
+	color: #000080;
+	}
+
+.Footer a:visited { 
+	color: #000080;
+	}
+
+.Footer a:hover, .Footer a:active { 
+	color: #cc4141;
+	}
+
+.Footer img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Footer input {
+	vertical-align: middle;
+	}
+
+.Info td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f7f7; color: #000000;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Info a:link { 
+	color: #000080;
+	}
+
+.Info a:visited { 
+	color: #000080;
+	}
+
+.Info a:hover, .Footer a:active { 
+	color: #cc4141;
+	}
+
+.Info img {
+	margin: 2px; 
+	vertical-align: middle;
+	}
+
+.Info input {
+	vertical-align: middle;
+	}
+
+
+.Bottom td { 
+	font-size: 80%;
+	padding: 3px;
+	border-right: 1px solid #3d84cc; border-bottom: 1px solid #3d84cc;
+	background-color: #f7f7f7; color: #000000;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Bottom a:link { 
+	color: #000080;
+	}
+
+.Bottom a:visited { 
+	color: #000080;
+	}
+
+.Bottom a:hover, .Caption a:active { 
+	color: #cc4141;
+	}
+
+.Bottom img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.Bottom input {
+	vertical-align: middle;
+	}
+
+
+.Top td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #3d84cc; border-right: 1px solid #3d84cc;
+	background-color: #f7f7f7; color: #000000;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #000000;
+	}
+
+.Top a:link { 
+	color: #000080;
+	}
+
+.Top a:visited { 
+	color: #000080;
+	}
+
+.Top a:hover, .Caption a:active { 
+	color: #cc4141;
+	}
+
+.Top img {
+	margin: 2px;
+	vertical-align: middle; 
+	}
+
+.Top input {
+	vertical-align: middle;
+	}
+
+
+
+.Transp { 
+	width: 100%;
+	}
+.Transp td { 
+	font-size: 80%;
+	padding: 0px;
+	border: 0px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	}
+

@@ -1,0 +1,73 @@
+<!--begin_orders-->
+<div style="width: 700px; margin: 20px auto;">
+
+<h4>Заказы</h4>
+
+<div style="width: 250px; float: left;">
+
+<!-- begin_bMessage -->
+<div class="WarningSmall">{sMessage}</div>
+<!-- end_bMessage -->
+
+	<div style="float: left; font-size: smaller; padding-bottom: 3px;">Заказов: {_n}</div>
+	<table class="Form" cellspacing="0" cellpadding="0" style="clear: both;">
+	<tr class="Caption">
+
+	<th>
+		<!-- begin_sort_orderId --><a href="{url}">#</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_orderId -->
+	</th> 
+	<th>
+		<!-- begin_sort_dOrdered --><a href="{url}">Дата заказа</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_dOrdered -->
+	</th> 
+	<th>
+		<!-- begin_sort_userName --><a href="{url}">Клиент</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_userName -->
+	</th> 
+	<th>
+		<!-- begin_sort_itemName --><a href="{url}">Товар</a> 
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_itemName -->
+	</th> 
+	<th>
+		<!-- begin_sort_price --><a href="{url}">Цена</a>
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_price -->
+	</th>
+	<th>
+		<!-- begin_sort_n --><a href="{url}">Кол-во</a>
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_n -->
+	</th>
+	<th>
+		<!-- begin_sort_amount --><a href="{url}">Стоимость</a>
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_amount -->
+	</th>
+	<th>
+		<!-- begin_sort_dDone --><a href="{url}">Выполнен</a>
+		<!-- begin_asc --><img border="0" src="{_img}/asc-admin.gif" /><!-- end_asc -->
+		<!-- begin_desc --><img border="0" src="{_img}/desc-admin.gif" /><!-- end_desc --><!-- end_sort_dDone -->
+	</th>
+	</tr>
+	<!--begin__item-->
+	<tr class="Row">
+	<td>{orderId}</td>
+	<td >{dOrdered}</td>
+	<td nowrap="nowrap">{userName} ({login})<br />{address}<br />{email} &nbsp; {phone}</td>
+	<td nowrap="nowrap"><a href="?p=item&itemId={itemId}">{itemName}</a></td>
+	<td>{price}</td>
+	<td>{n}</td>
+	<td>{amount}</td>
+	<td >{dDone}<!--begin_bDone--><a href="?p=orders&ordersCmd=done&orderId={orderId}">Выполнить</a><!--end_bDone--></td>
+	</tr>
+	<!--end__item-->
+	</table>
+</div>
+
+</div>
+<!--end_orders-->

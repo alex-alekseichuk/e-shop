@@ -1,0 +1,343 @@
+/* commented backslash hack \*/ 
+html, body{height:100%;} 
+/* end hack */
+html,body {margin:0;padding:0}
+#outer{
+min-height:100%;
+margin-bottom:-80px;
+height:auto;
+}
+* html #outer{height:100%;}
+#footer {
+width:100%;
+clear:both;
+height:70px;
+color: #000000;
+}
+#clearfooter{clear:both;height:80px;}
+div>p {margin:0}
+ 
+
+body, table, td, tr, div, span, p, ul, ol, li, img {
+	background: #fff;
+    color: #555753;
+	margin: 0;
+	padding: 0;
+	border: none;
+	/*border: solid 1px;*/
+}
+
+body {
+	margin-left: 10px;
+	margin-right: 10px;
+    font-family: "Arial Blask", Arial, sans-serif;
+}
+
+
+.clear {
+	clear: both;
+}
+
+a:link
+{
+    font-weight: bold;
+    color: #b7a5df;
+    text-decoration: none
+}
+a:visited
+{
+    font-weight: bold;
+    color: #b7a5df;
+    text-decoration: none
+}
+a:hover
+{
+    color: #9685ba;
+    text-decoration: underline
+}
+a:active
+{
+    color: #9685ba;
+    text-decoration: underline
+}
+
+hr {
+	height: 1px;
+	border:none;
+	color: #d4cddc;
+	background-color: #d4cddc;
+}
+
+h1, h1 * {
+    color: #959991;
+}
+h3, h3 * {
+	margin-top: 10px;
+	margin-left: 30px;
+    color: #757971;
+}
+h4, h4 * {
+    color: #656961;
+}
+h4.SubTitle {
+    color: #757971;
+	padding: 5px;
+	padding-left: 15px;
+	margin: 0px;
+}
+
+p {
+	text-indent: 1.5em;
+	text-align: justify;
+}
+
+#header {
+	width: 700px;
+	margin: 0 auto;
+	clear: right;
+}
+#title {
+}
+#title a {
+	text-decoration: none;
+    color: #959991;
+}
+
+#slogan {
+	margin-top: 5px;
+	text-align: justify;
+	font-size: smaller;
+}
+
+#headerButtons {
+	float: right;
+	padding-top: 10px;
+}
+
+ul.HeaderButtons {
+}
+li.HeaderButton {
+	float: left;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+
+#menu {
+	text-align: center;
+	font-size: smaller;
+}
+#menu a {
+	margin-right: 10px;
+}
+      
+#copyright {
+	bottom: 0px;
+	text-align: center;
+	font-size: smaller;
+}
+
+
+
+.page {
+	max-width: 70%;
+	padding: 0 auto;
+	margin: 0 auto;
+	align: center;
+}
+
+p.TextBlock {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.TextBlock {
+	text-indent: 1.5em;
+	text-align: justify;
+}
+
+ul.SimpleList {
+	list-style-type: disc;
+	padding-left: 30px;
+}
+ol.SimpleList {
+	padding-left: 30px;
+}
+ul.EmptyList {
+	list-style-type: none;
+	padding-left: 30px;
+}
+ol.SimpleList li {
+	margin-bottom: 5px;
+}
+ul.SimpleList li {
+	margin-bottom: 5px;
+}
+
+ol.LargeList {
+	padding-left: 30px;
+}
+ol.LargeList li {
+	margin-bottom: 15px;
+}
+
+p.WarningBlock {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #DE5959;
+	text-align: center;
+	font-weight: bolder;
+}
+span.WarningBlock {
+	color: #DE5959;
+	font-weight: bolder;
+}
+
+.WarningSmall {
+	margin: 20px auto;
+	color: #DE5959;
+	font-size: smaller;
+}
+
+p.InfoBlock {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #5959DE;
+	text-align: center;
+	font-weight: bolder;
+}
+span.InfoBlock {
+	color: #5959DE;
+	font-weight: bolder;
+}
+
+p.FormulaBlock {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*text-align: center;*/
+	font-weight: bolder;
+	margin-left: 10%;
+}
+
+
+table.CleanTable, table.CleanTable td {
+	border: none;
+	font-size: small;
+	padding: 5px;
+}
+
+table.InfoTable, table.InfoTable td {
+	border: none 0 #555753;
+	font-size: small;
+	text-align: center;
+}
+
+table.InfoTable, table.InfoTable td {
+    border-color: #555753;
+    border-style: solid;
+}
+table.InfoTable {
+    border-width: 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+table.InfoTable td {
+    margin: 0;
+    padding: 4px;
+    border-width: 1px;
+}
+
+table.InfoTable .Warning {
+    color: #DE5959;
+	font-weight: bolder;
+}
+
+table.InfoTable th {        
+	border: solid 1px #555753;
+	background-color : #7a93b4;
+    margin: 0;
+    padding: 4px;
+	color: #FFF;
+}
+
+table.InfoTable sub {        
+	border: none;
+	background-color : #7a93b4;
+    margin: 0;
+    padding: 0;
+	color: #FFF;
+}
+
+tr.InfoRowAlt * {
+	background-color : #EEE;
+}
+
+.Image {
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+
+
+
+
+table.Form { 
+	border-left: 1px solid #d4cddc;
+	border-bottom: 1px solid #d4cddc;
+	}
+
+
+tr.Controls th { 
+	font-size: 80%; font-weight: normal; text-align: left; vertical-align: middle;
+	padding: 3px;
+	border-top: 1px solid #d4cddc; border-right: 1px solid #d4cddc;
+	background-color: #f7f7f7;
+	white-space: nowrap;
+	color: #555753
+	}
+
+tr.Controls td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #d4cddc; border-right: 1px solid #d4cddc;
+	vertical-align: top;
+	background-color: #f7f7f7; 
+	color: #555753
+	}
+
+tr.Footer td { 
+	font-size: 80%;
+	padding: 3px;
+	border-top: 1px solid #d4cddc; border-right: 1px solid #d4cddc;
+	background-color: #f7f7f7;
+	text-align: right;
+	vertical-align: middle;
+	white-space: nowrap;
+	color: #555753
+	}
+
+.Footer input {
+	vertical-align: middle;
+	}
+
+
+tr.Controls input, textarea { 
+	border: 1px solid #d4cddc;
+	}
+
+
+
+li.cat1 {
+	display: block;
+	padding-left: 15px;
+}
+li.cat2 {
+	display: block;
+	padding-left: 30px;
+}
+
+
